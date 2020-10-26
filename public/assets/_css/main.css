@@ -31,6 +31,7 @@
     .menu-nav .navbar-collapse {
         padding: 0.75rem;
     }
+
     .menu-nav .navbar-nav {
         box-shadow: 4px 0px 10px 2px #03082b
     }
@@ -47,12 +48,12 @@
 
     .menu-nav .nav-item.show a.nav-link {
         background: linear-gradient(90deg, #ffffff 50%, #031ce8 50%) !important;
-        color: #00052f!important;
+        color: #00052f !important;
     }
 
     .menu-nav .nav-item a.nav-link:hover {
         background: linear-gradient(90deg, #ffffff 50%, #031ce8 50%) !important;
-        color: #00052f!important;
+        color: #00052f !important;
         border-radius: 5px;
     }
 
@@ -68,4 +69,10 @@
         background-color: #031ce8;
         color: #FFF;
     }
+}
+
+.img-object-fit {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
 }

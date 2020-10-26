@@ -27,6 +27,77 @@
         </div>
     </section>
     <!-- SEÇÃO VITRINE -->
+    <section class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg pb-4">
+                    <img src="assets/_images/Layer 12.png" class="img-fluid" />
+                </div>
+                <div class="col-lg pb-4">
+                    <img src="assets/_images/Layer 12.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg">
+                    <img src="assets/_images/Layer 12.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg pb-4">
+                    <div class="d-block overflow-hidden" style="height: 250px;">
+                        <img src="assets/_images/Layer 12.png" class="img-object-fit" />
+                    </div>
+                </div>
+                <div class="col-lg pb-4">
+                    <div class="d-block overflow-hidden" style="height: 250px;">
+                        <img src="assets/_images/Layer 12.png" class="img-object-fit" />
+                    </div>
+                </div>
+                <div class="col-lg pb-4">
+                    <div class="d-block overflow-hidden" style="height: 250px;">
+                        <img src="assets/_images/Layer 12.png" class="img-object-fit" />
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg pb-4">
+                    <div class="d-block overflow-hidden" style="height: 250px;">
+                        <img src="assets/_images/Layer 12.png" class="img-object-fit" />
+                    </div>
+                </div>
+                <div class="col-lg pb-4">
+                    <div class="d-block overflow-hidden" style="height: 250px;">
+                        <img src="assets/_images/Layer 12.png" class="img-object-fit" />
+                    </div>
+                </div>
+                <div class="col-lg pb-4">
+                    <div class="d-block overflow-hidden" style="height: 250px;">
+                        <img src="assets/_images/Layer 12.png" class="img-object-fit" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="mt-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg pb-4">
+                    <img src="assets/_images/Layer 12.png" class="img-fluid" />
+                </div>
+                <div class="col-lg pb-4">
+                    <img src="assets/_images/Layer 12.png" class="img-fluid" />
+                </div>
+            </div>
+        </div>
+    </section>
     <?php require_once __DIR__.'./../content/_footer.php'?>
     <script type="text/javascript" src="node_modules/owl.carousel/dist/owl.carousel.min.js"></script>
     <script type="text/javascript" src="assets/_js/index.js"></script>
