@@ -1,8 +1,7 @@
-<header class="navbar-light bg-light text-center">
-    <nav class="navbar navbar-expand-lg p-0">
-        <a class="navbar-brand m-0 p-2" href="#"
-            style="background-color: blue; color: #FFF;  padding: 0.75em 3em!important;">Blog do Desenvolvedor</a>
-        <button class="navbar-toggler m-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+<nav class="menu-nav position-fixed w-100">
+    <div class="container navbar navbar-dark navbar-expand-lg p-0 menu-nav">
+        <a class="navbar-brand m-0 p-2 text-white" href="#">Blog do <strong>Desenvolvedor</strong></a>
+        <button class="navbar-toggler bg-blue p-2 m-2" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
             aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -14,7 +13,9 @@
                         PHP
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="https://www.php.net/manual/pt_BR/intro-whatis.php"
+                            target="_blank">O que é
+                            PHP?</a>
                         <a class="dropdown-item" href="#">Another action</a>
                         <a class="dropdown-item" href="#">Something else here</a>
                     </div>
@@ -87,5 +88,5 @@
                 </li>
             </ul>
         </div>
-    </nav>
-</header>
+    </div>
+</nav>

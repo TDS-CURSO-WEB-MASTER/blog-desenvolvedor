@@ -1,6 +1,71 @@
 /* Está folha de estilo será chamada em todas as páginas */
 
 .navbar-brand,
-#navbarNavDropdown .navbar-nav .nav-item {
-    padding: 0.75em !important;
+#navbarNavDropdown .navbar-nav {
+    padding: 0.5em !important;
+}
+
+.menu-nav {
+    background: linear-gradient(90deg, #031ce8 30%, #ffffff 30%);
+    z-index: 9;
+}
+
+.menu-nav li.nav-item a.nav-link {
+    color: #031ce8 !important;
+}
+
+.bg-blue {
+    background-color: #031ce8;
+    outline: 0px !important;
+}
+
+#vitrine {
+    padding-top: 3.5rem;
+}
+
+@media (max-width: 992px) {
+    .menu-nav {
+        background: linear-gradient(90deg, #031ce8 50%, #ffffff 50%);
+    }
+
+    .menu-nav .navbar-collapse {
+        padding: 0.75rem;
+    }
+    .menu-nav .navbar-nav {
+        box-shadow: 4px 0px 10px 2px #03082b
+    }
+
+    .menu-nav li.nav-item a.nav-link {
+        color: #FFF !important;
+        padding-left: 1rem;
+        text-shadow: 1px 1px;
+        border-bottom: 2px solid #ffffff;
+        border-bottom-left-radius: 2px;
+        border-bottom-right-radius: 2px;
+        border-top: 2px solid #031ce8;
+    }
+
+    .menu-nav .nav-item.show a.nav-link {
+        background: linear-gradient(90deg, #ffffff 50%, #031ce8 50%) !important;
+        color: #00052f!important;
+    }
+
+    .menu-nav .nav-item a.nav-link:hover {
+        background: linear-gradient(90deg, #ffffff 50%, #031ce8 50%) !important;
+        color: #00052f!important;
+        border-radius: 5px;
+    }
+
+    .menu-nav .navbar-nav .dropdown-menu {
+        border: 2px solid #031ce8;
+    }
+
+    .menu-nav .navbar-nav .dropdown-menu .dropdown-item {
+        color: #031ce8;
+    }
+
+    .menu-nav .navbar-nav .dropdown-menu .dropdown-item:hover {
+        background-color: #031ce8;
+        color: #FFF;
+    }
 }

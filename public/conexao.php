@@ -1,3 +1,6 @@
+<?php 
+require_once __DIR__. './../_connect/database.php';
+?>
 <!doctype html>
 <html lang="pt-br">
 <?php require_once __DIR__.'./../content/_head.php'?>
