@@ -44,6 +44,8 @@
             <div class="row">
                 <div class="col-lg">
                     <div class="d-block overflow-hidden" style="height: 400px;">
+                        <span class="categoria"
+                            style="background-color: rgba(<?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, 0.75)">Teste</span>
                         <img src="assets/_images/Layer 11.png" class="img-object-fit" />
                     </div>
                 </div>
@@ -55,16 +57,22 @@
             <div class="row">
                 <div class="col-lg pb-4">
                     <div class="d-block overflow-hidden" style="height: 250px;">
+                        <span class="categoria"
+                            style="background-color: rgba(<?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, 0.75)">Teste</span>
                         <img src="assets/_images/Layer 5.png" class="img-object-fit" />
                     </div>
                 </div>
                 <div class="col-lg pb-4">
                     <div class="d-block overflow-hidden" style="height: 250px;">
+                        <span class="categoria"
+                            style="background-color: rgba(<?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, 0.75)">Teste</span>
                         <img src="assets/_images/Layer 7.png" class="img-object-fit" />
                     </div>
                 </div>
                 <div class="col-lg pb-4">
                     <div class="d-block overflow-hidden" style="height: 250px;">
+                        <span class="categoria"
+                            style="background-color: rgba(<?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, 0.75)">Teste</span>
                         <img src="assets/_images/Layer 6.png" class="img-object-fit" />
                     </div>
                 </div>
@@ -72,16 +80,22 @@
             <div class="row">
                 <div class="col-lg pb-4">
                     <div class="d-block overflow-hidden" style="height: 250px;">
+                        <span class="categoria"
+                            style="background-color: rgba(<?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, 0.75)">Teste</span>
                         <img src="assets/_images/Layer 8.png" class="img-object-fit" />
                     </div>
                 </div>
                 <div class="col-lg pb-4">
                     <div class="d-block overflow-hidden" style="height: 250px;">
+                        <span class="categoria"
+                            style="background-color: rgba(<?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, 0.75)">Teste</span>
                         <img src="assets/_images/Layer 9.png" class="img-object-fit" />
                     </div>
                 </div>
                 <div class="col-lg pb-4">
                     <div class="d-block overflow-hidden" style="height: 250px;">
+                        <span class="categoria"
+                            style="background-color: rgba(<?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, <?php echo rand('0', '255')?>, 0.75)">Teste</span>
                         <img src="assets/_images/Layer 10.png" class="img-object-fit" />
                     </div>
                 </div>
@@ -92,10 +106,10 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg pb-4">
-                    <img src="assets/_images/Layer 3 copy.png" class="img-fluid" />
+                    <img src="assets/_images/Layer 4 copy.png" class="img-fluid" />
                 </div>
                 <div class="col-lg pb-4">
-                    <img src="assets/_images/Layer 4 copy.png" class="img-fluid" />
+                    <img src="assets/_images/Layer 3 copy.png" class="img-fluid" />
                 </div>
             </div>
         </div>

@@ -106,7 +106,16 @@
     z-index: 0 !important;
 }
 
-.bg-footer{
+.bg-footer {
     background-color: #031ce8;
     border-top: 2px solid #FFF;
+}
+
+.categoria {
+    position: absolute;
+    background: rgb(255 20 147 / 0.75);
+    padding: 0.25rem 0.5rem;
+    color: #FFF;
+    bottom: 30px;
+    box-shadow: 1px 1px 1px 2px black;
 }
