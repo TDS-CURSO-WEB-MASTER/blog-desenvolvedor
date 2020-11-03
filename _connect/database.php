@@ -42,7 +42,7 @@ function DBSelect($table, $params = null, $fields = '*'){
         return $data;
     }
 
-    return 'A consulta não retornou nenhum resultado.';
+    return null;
 }
 	
 //Insere no banco de dados

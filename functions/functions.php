@@ -8,3 +8,10 @@ function base_url($dir = ''){
 
     return $host;
 }
+
+function base_root($dir = ''){
+    $base_dir = !$GLOBALS['BASE_PROJECT_DIRECTORY'] ? "{$_SERVER['DOCUMENT_ROOT']}/blog-desenvolvedor": "{$_SERVER['DOCUMENT_ROOT']}/{$GLOBALS['BASE_PROJECT_DIRECTORY']}";
+    $base_dir = "{$base_dir}/{$dir}";
+    
+    return $base_dir;
+}

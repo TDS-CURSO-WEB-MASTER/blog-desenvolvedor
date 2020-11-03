@@ -1,4 +1,42 @@
+@charset "UTF-8";
 /* Está folha de estilo será chamada em todas as páginas */
+
+@font-face {
+    font-family: 'PTSerif-Bold';
+    src: url('../_fonts/PTSerif/PTSerif-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'PTSerif-BoldItalic';
+    src: url('../_fonts/PTSerif/PTSerif-BoldItalic.ttf');
+}
+
+@font-face {
+    font-family: 'PTSerif-Italic';
+    src: url('../_fonts/PTSerif/PTSerif-Italic.ttf');
+}
+
+@font-face {
+    font-family: 'PTSerif-Regular';
+    src: url('../_fonts/PTSerif/PTSerif-Regular.ttf');
+}
+
+.pt-serif-bold {
+    font-family: 'PTSerif-Bold';
+}
+
+.pt-serif-bold-italic {
+    font-family: 'PTSerif-BoldItalic';
+}
+
+.pt-serif-italic {
+    font-family: 'PTSerif-Italic';
+}
+
+.pt-serif-regular {
+    font-family: 'PTSerif-Regular';
+    font-size: 1em;
+}
 
 .navbar-brand,
 #navbarNavDropdown .navbar-nav {
@@ -111,11 +149,63 @@
     border-top: 2px solid #FFF;
 }
 
+.noticia {
+    margin-bottom: 0.75em;
+    transition: padding 0.5s;
+}
+
+.noticia:hover {
+    padding: 10px;
+    background-color: #031ce8;
+    transition: padding 0.5s;
+}
+
+.noticia:hover .categoria {
+    margin-top: 10px;
+    transition: margin-top 0.5s;
+}
+
 .categoria {
     position: absolute;
     background: rgb(255 20 147 / 0.75);
     padding: 0.25rem 0.5rem;
     color: #FFF;
-    bottom: 30px;
+    top: 0;
     box-shadow: 1px 1px 1px 2px black;
+}
+
+#carousel-vitrine .owl-nav {
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    width: 100%;
+}
+
+#carousel-vitrine .owl-nav .owl-next,
+#carousel-vitrine .owl-nav .owl-prev {
+    padding: 0 10px !important;
+    background-color: rgba(255, 255, 255, 1);
+    color: #000;
+    font-size: 2em;
+    outline: 0;
+}
+
+#carousel-vitrine .owl-nav .owl-next:hover,
+#carousel-vitrine .owl-nav .owl-prev:hover {
+    background-color: rgba(3, 28, 232, 0.75);
+    color: #FFF;
+}
+
+#carousel-vitrine .owl-nav .owl-next {
+    position: absolute;
+    right: 0;
+}
+
+.text-blue{
+    color: #031ce8;
+}
+
+.form-login{
+    border: 1px solid red;
+    padding: 1em;
 }

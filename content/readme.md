@@ -1,1 +1,1 @@
-# neste diretório vai todos os arquivos que serão reutilizáveis
+# neste diretório vai todos os arquivos que serão ou podem ser reutilizáveis
