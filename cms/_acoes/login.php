@@ -18,7 +18,7 @@
         $_SESSION['sobre_nome']     = $result[0]['sobre_nome'];
         
         header("Location: {$base_url}cms/painel/");
-    }else if(isset($_SESSION)){
+    }else{
         if(!$_SESSION['login'] && !$_SESSION['senha']){
             header("Location: {$base_url}cms/");
         }
